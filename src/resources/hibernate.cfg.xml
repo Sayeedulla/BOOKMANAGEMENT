@@ -10,7 +10,8 @@
     <property name="connection.username">root</property>
     <property name="connection.password">Welcome123</property>
     <property name="show_sql">true</property>
-  
+    <property name="hbm2ddl.auto">create</property>
+
         
     <mapping class="com.mindtree.BookManagement.Entity.Book" />
     <mapping class="com.mindtree.BookManagement.Entity.Purchase"/>
